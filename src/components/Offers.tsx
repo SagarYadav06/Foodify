@@ -4,7 +4,7 @@ const Offers = () => {
   return (
     <div className="px-6 py-8">
       <h1 className="text-2xl font-bold text-gray-800 mb-6">
-        🔥 Today’s Offers
+        🔥 Todays Offers
       </h1>
 
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

@@ -1,4 +1,4 @@
-import Card from "./Card"
+import Card from "./Card" 
 import Home from "./Home"
 import Layout from "./Layout"
 import Menu from "./Menu"
@@ -10,7 +10,7 @@ const Hero = () => {
   return (
      <>
     <Layout>
-        <Home />
+        <Home /> 
         <Card />
         <Offers />
         <Menu />

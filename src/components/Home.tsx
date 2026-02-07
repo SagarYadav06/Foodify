@@ -4,7 +4,7 @@
         <div className="max-w-6xl mx-auto px-6 text-white">
           <div className="grid md:grid-cols-2 gap-10 items-center">
             
-            {/* Left content */}
+            
             <div>
               <h1 className="text-4xl md:text-6xl font-bold leading-tight">
                 Build Your <span className="text-yellow-300">Dream App</span>
@@ -23,7 +23,7 @@
               </div>
             </div>
 
-            {/* Right content */}
+            
             <div className="hidden md:block">
               <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 shadow-xl">
                 <h3 className="text-xl font-semibold mb-4">Why Choose Us?</h3>

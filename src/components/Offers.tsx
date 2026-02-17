@@ -1,16 +1,11 @@
- 
-
 const Offers = () => {
   return (
     <div className="px-6 py-8">
       <h1 className="text-2xl font-bold text-gray-800 mb-6">
         🔥 Todays Offers
       </h1>
-
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        
-        {/* Offer Card 1 */}
-        <div className="rounded-xl p-6 text-white bg-linear-to-r from-orange-400 to-red-500 shadow-lg hover:scale-105 transition-transform">
+  <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="rounded-xl p-6 text-white bg-linear-to-r from-orange-400 to-red-500 shadow-lg hover:scale-105 transition-transform">
           <h2 className="text-xl font-semibold">50% OFF</h2>
           <p className="mt-2 text-sm">
             On your first food order
@@ -20,7 +15,6 @@ const Offers = () => {
           </button>
         </div>
 
-        {/* Offer Card 2 */}
         <div className="rounded-xl p-6 text-white bg-linear-to-r from-green-400 to-emerald-500 shadow-lg hover:scale-105 transition-transform">
           <h2 className="text-xl font-semibold">FREE DELIVERY</h2>
           <p className="mt-2 text-sm">
@@ -31,7 +25,6 @@ const Offers = () => {
           </button>
         </div>
 
-        {/* Offer Card 3 */}
         <div className="rounded-xl p-6 text-white bg-linear-to-r from-purple-400 to-pink-500 shadow-lg hover:scale-105 transition-transform">
           <h2 className="text-xl font-semibold">Buy 1 Get 1</h2>
           <p className="mt-2 text-sm">

@@ -1,23 +1,16 @@
-import Card from "./Card" 
-import Home from "./Home"
-import Layout from "./Layout"
-import Menu from "./Menu"
-import Offers from "./Offers"
-
- 
+import Card from "./Card";
+import Menu from "./Menu";
+import Offers from "./Offers";
 
 const Hero = () => {
   return (
-     <>
-    <Layout>
-        <Home /> 
-        <Card />
+    <>
+      <Menu />
+       <Card />
         <Offers />
-        <Menu />
-    </Layout>
-     </>
+        
+    </>
+  );
+};
 
-  )
-}
-
-export default Hero
+export default Hero;

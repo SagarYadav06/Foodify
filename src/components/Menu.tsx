@@ -1,39 +1,14 @@
- 
-
 const Menu = () => {
   return (
-    <div className="px-6 py-8">
-      
-      {/* Heading */}
-      <h1 className="text-2xl font-bold text-gray-800 mb-6">
-        🍴 Our Menu
-      </h1>
-
-      {/* Categories */}
-      <div className="flex gap-4 mb-8 overflow-x-auto">
-        {["All", "Burger", "Pizza", "Biryani", "Desserts"].map(
-          (category) => (
-            <button
-              key={category}
-              className="px-5 py-2 rounded-full bg-gray-100 text-gray-700 font-medium hover:bg-green-500 hover:text-white transition whitespace-nowrap"
-            >
-              {category}
-            </button>
-          )
-        )}
-      </div>
-
-      {/* Menu Items */}
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        
-        {/* Item 1 */}
-        <div className="bg-white rounded-xl shadow-md p-4 hover:shadow-xl transition">
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+       
+        <div className="h-screenbg-white rounded-xl shadow-md p-4 hover:shadow-xl transition">
           <img
-            src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092"
+            src="https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Burger"
             className="w-full h-40 object-cover rounded-lg"
           />
-
           <h2 className="text-lg font-semibold mt-3 text-gray-800">
             Chicken Burger
           </h2>
@@ -52,7 +27,7 @@ const Menu = () => {
           </div>
         </div>
 
-        {/* Item 2 */}
+   
         <div className="bg-white rounded-xl shadow-md p-4 hover:shadow-xl transition">
           <img
             src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe"

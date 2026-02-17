@@ -1,11 +1,12 @@
 import Layout from "./Layout"
 
- 
 const Blog = () => {
   return (
-   <Layout>
-     <div className="h-screen">Blog</div>
-   </Layout>
+    <Layout title="Blog">
+      <div className="min-h-screen p-10">
+        Blog Page
+      </div>
+    </Layout>
   )
 }
 

@@ -1,17 +1,15 @@
-import React from "react";
+
 
 const Card = () => {
   return (
     <div className="max-w-sm rounded-xl overflow-hidden shadow-lg bg-white hover:shadow-2xl transition-shadow duration-300">
-      
-      {/* Image */}
+
       <img
         className="w-full h-48 object-cover"
         src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092"
         alt="Food"
       />
-
-      {/* Content */}
+ 
       <div className="p-4">
         <h2 className="text-lg font-semibold text-gray-800">
           Chicken Burger
@@ -21,7 +19,6 @@ const Card = () => {
           Juicy grilled chicken with fresh veggies
         </p>
 
-        {/* Price + Button */}
         <div className="flex items-center justify-between mt-4">
           <span className="text-xl font-bold text-green-600">
             ₹199
